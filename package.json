@@ -1,0 +1,33 @@
+{
+  "name": "@11ty/eleventy-plugin-accessibility",
+  "version": "0.0.1",
+  "description": "An Eleventy linter plugin to check for accessibility issues in HTML.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "standard 'src/**/*.js' .eleventy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11ty/eleventy-plugin-accessibility.git"
+  },
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/11ty/eleventy-plugin-accessibility/issues"
+  },
+  "homepage": "https://github.com/11ty/eleventy-plugin-accessibility#readme",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.5.4",
+    "axe-core": "^3.3.2",
+    "chalk": "^2.4.1",
+    "jsdom": "^15.2.0",
+    "lodash.merge": "^4.6.2",
+    "p-queue": "^6.2.0"
+  }
+}
