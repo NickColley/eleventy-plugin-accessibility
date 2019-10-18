@@ -1,5 +1,5 @@
 {
-  "name": "@11ty/eleventy-plugin-accessibility",
+  "name": "eleventy-plugin-accessibility",
   "version": "0.0.1",
   "description": "An Eleventy linter plugin to check for accessibility issues in HTML.",
   "main": ".eleventy.js",
