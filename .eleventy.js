@@ -20,7 +20,7 @@ module.exports = {
           const pass = formatedViolations.length === 0
           if (!pass) {
             console.warn(chalk.yellow(`Accessibility Linter (${inputPath}):`))
-            console.log('\n' + formatedViolations + '\n')
+            console.error('\n' + formatedViolations + '\n')
           }
         }
       } catch (error) {
