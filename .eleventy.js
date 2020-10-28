@@ -21,6 +21,7 @@ module.exports = {
           if (!pass) {
             console.warn(chalk.yellow(`Accessibility Linter (${inputPath}):`))
             console.error('\n' + formatedViolations + '\n')
+            process.env.ELEVENTY_ACCESSIBILITY_LINTER_FAILED = true;
           }
         }
       } catch (error) {
